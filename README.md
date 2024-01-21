@@ -38,17 +38,18 @@ src/
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
+
    git clone https://github.com/your-username/react-appointment-booking.git
-Navigate to the project directory:
 
-
+   
+**Navigate to the project directory:**
 cd react-appointment-booking
-Install dependencies:
 
 
+**Install dependencies:**
 npm install
-Start the development server:
 
 
+
+**Start the development server:**
 npm start
