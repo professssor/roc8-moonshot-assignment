@@ -72,5 +72,9 @@ react-appointment-booking/
 |-- README.md
 ```
 
+## Design/ logic implementation challenges
+
+For the Calendar implementation (working model), I had to to read a few articles about the date-fns library for easy date management and watch youtube tutorials for its logical implantation
+
 
 
