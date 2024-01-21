@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+# React Appointment Booking Screen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a React application that allows users to view and book appointments based on the available timeslots fetched from a mock API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Dynamic Calendar View:** Users can select a date and view the available timeslots for that day.
+- **User Feedback:** Provides appropriate feedback to the user while data is loading.
+- **Appointment Booking:** Users can select a timeslot and proceed to book an appointment.
+- **Error Handling:** Includes error handling for a seamless user experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Integration with Backend
 
-- Configure the top-level `parserOptions` property like this:
+The application makes an HTTP request to a mock API endpoint to fetch available timeslots.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**API Endpoint:**
