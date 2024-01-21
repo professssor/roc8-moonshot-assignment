@@ -32,17 +32,17 @@ GET https://app.appointo.me/scripttag/mock_timeslots?start_date=2024-01-20&end_d
    git clone https://github.com/your-username/react-appointment-booking.git
 
    
-**Navigate to the project directory:**
+2. **Navigate to the project directory:**
 
 cd react-appointment-booking
 
 
-**Install dependencies:**
+3. **Install dependencies:**
 
 npm install
 
 
 
-**Start the development server:**
+4. **Start the development server:**
 
 npm start
