@@ -46,3 +46,27 @@ npm install
 4. **Start the development server:**
 
 npm start
+
+
+
+## folder structure
+
+```bash
+react-appointment-booking/
+|-- src/
+|   |-- components/
+|   |   |-- Calendar.js
+|   |   |-- AppointmentBooking.js
+|   |   |-- UI components...
+|-- context/
+|   |-- DateContextProvider.js
+|-- App.js
+|-- index.js
+|-- styles.css
+|-- public/
+|-- ...
+|-- README.md
+```
+
+
+
