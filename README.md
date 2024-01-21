@@ -16,3 +16,39 @@ This is a React application that allows users to view and book appointments base
 The application makes an HTTP request to a mock API endpoint to fetch available timeslots.
 
 **API Endpoint:**
+GET https://app.appointo.me/scripttag/mock_timeslots?start_date=2024-01-20&end_date=2024-01-30
+
+
+src/
+|-- components/
+|   |-- Calendar.js
+|   |-- AppointmentBooking.js
+|   |-- UI components...
+|-- context/
+|   |-- DateContextProvider.js
+|-- App.js
+|-- index.js
+|-- styles.css
+
+
+
+
+
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/react-appointment-booking.git
+Navigate to the project directory:
+
+
+cd react-appointment-booking
+Install dependencies:
+
+
+npm install
+Start the development server:
+
+
+npm start
