@@ -4,6 +4,10 @@
 
 This is a React application that allows users to view and book appointments based on the available timeslots fetched from a mock API.
 
+## Hosted Link
+https://majestic-piroshki-6c91ef.netlify.app/
+
+
 ## Features
 
 - **Dynamic Calendar View:** Users can select a date and view the available timeslots for that day.
