@@ -12,7 +12,7 @@ function Next() {
         <button
           disabled={bookedSlot === ""}
           onClick={() => setNextClicked(true)}
-         className={`bg-white w-[150px]  ${bookedSlot !== "" && !nextCLicked &&"animate-pulse"} `}
+         className={`bg-white w-[150px] } `}
 
         >
           Next
