@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { DateContext } from "../context/DateContextProvider";
 
 function Next() {
-  const { nextCLicked, setNextClicked } = useContext(DateContext);
+  const { setNextClicked } = useContext(DateContext);
   const { bookedSlot } = useContext(DateContext);
   return (
     <div className="flex justify-between p-5 rounded-b-2xl bg-[#378760] items-center  ">
