@@ -33,10 +33,11 @@ GET https://app.appointo.me/scripttag/mock_timeslots?start_date=2024-01-20&end_d
 
 1. **Clone the repository:**
 
-   git clone https://github.com/your-username/react-appointment-booking.git
+   git clone https://github.com/professssor/roc8-moonshot-assignment
+   
 
    
-2. **Navigate to the project directory:**
+3. **Navigate to the project directory:**
 
 cd react-appointment-booking
 
